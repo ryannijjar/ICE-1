@@ -42,7 +42,7 @@ public class CardTrick {
         luckyCard.setValue(value);
         System.out.println("Enter Card Suit (Hearts Diamonds Spades Clubs):");
         String suit = view.next();
-        userCard.setSuit(suit);
+        luckyCard.setSuit(suit);
         boolean results = false;
         for (int i=0; i<magicHand.length; i++)
         {
