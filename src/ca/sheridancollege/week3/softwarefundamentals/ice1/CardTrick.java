@@ -46,7 +46,7 @@ public class CardTrick {
         boolean results = false;
         for (int i=0; i<magicHand.length; i++)
         {
-            if(magicHand[i]== userCard){
+            if(magicHand[i]== luckyCard){
                 System.out.println("This Card was in the System");
                 results = true;
             }
