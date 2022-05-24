@@ -38,8 +38,8 @@ public class CardTrick {
         Scanner view = new Scanner(System.in);
         System.out.println("Enter Card Value (1-13):");
         int value = view.nextInt();
-        Card userCard = new Card();
-        userCard.setValue(value);
+        Card luckyCard = new Card();
+        luckyCard.setValue(value);
         System.out.println("Enter Card Suit (Hearts Diamonds Spades Clubs):");
         String suit = view.next();
         userCard.setSuit(suit);
